@@ -1,0 +1,27 @@
+PODS:
+  - ExtFastUI (0.0.1)
+  - ExtResponderEvent (0.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - ExtFastUI (from `../`)
+  - ExtResponderEvent
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - ExtResponderEvent
+    - Masonry
+
+EXTERNAL SOURCES:
+  ExtFastUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtFastUI: 4bda2351eb09eed33ecbf3debaf43998c0e7a506
+  ExtResponderEvent: 381432924b48b191dcd83bbb959c13253597ffdc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 0c41fa693f3944fd1749f27a905dc0325b635f36
+
+COCOAPODS: 1.9.3
