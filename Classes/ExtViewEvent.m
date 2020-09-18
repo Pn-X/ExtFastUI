@@ -12,23 +12,23 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.onTap = [[UITapGestureRecognizer alloc] init];
-        self.onTap.enabled = NO;
+        _onTap = [[UITapGestureRecognizer alloc] init];
+        _onTap.enabled = NO;
         
-        self.onSwipe = [[UISwipeGestureRecognizer alloc] init];
-        self.onSwipe.enabled = NO;
+        _onSwipe = [[UISwipeGestureRecognizer alloc] init];
+        _onSwipe.enabled = NO;
         
-        self.onPan = [[UIPanGestureRecognizer alloc] init];
-        self.onPan.enabled = NO;
+        _onPan = [[UIPanGestureRecognizer alloc] init];
+        _onPan.enabled = NO;
         
-        self.onPinch = [[UIPinchGestureRecognizer alloc] init];
-        self.onPinch.enabled = NO;
+        _onPinch = [[UIPinchGestureRecognizer alloc] init];
+        _onPinch.enabled = NO;
         
-        self.onRotation = [[UIRotationGestureRecognizer alloc] init];
-        self.onRotation.enabled = NO;
+        _onRotation = [[UIRotationGestureRecognizer alloc] init];
+        _onRotation.enabled = NO;
         
-        self.onLongPress = [[UILongPressGestureRecognizer alloc] init];
-        self.onLongPress.enabled = NO;
+        _onLongPress = [[UILongPressGestureRecognizer alloc] init];
+        _onLongPress.enabled = NO;
     }
     return self;
 }

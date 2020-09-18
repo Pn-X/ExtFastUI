@@ -29,7 +29,7 @@
 
 - (NSArray *)ext_template:(nullable id)params {
     return @[
-        UIView.extViewNode(this.nodeId = @"v1"; this.event.onTap = @selector(sayHello)),
+        UIView.extViewNode(this.nodeId = @"v1";this.event.onTap = @selector(sayHello);)
     ];
 }
 

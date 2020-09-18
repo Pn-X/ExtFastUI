@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0043A270AC77F5C636F1B4843A419DFF /* ExtStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A7DE2E305BFF1F0DBA0632145A6BF5 /* ExtStackView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FBABB83403696F1372C47759FF1C11 /* MASLayoutConstraint.m */; };
-		07634884F70C97B0D6FFF128C91333D9 /* UIView+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 92501DD96B9FEE4213E4163A77082DAE /* UIView+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0943AC15B2484579AEDEE08B8FAB0E0A /* ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C903A18AD53BACCB1FD542B449D8C48B /* ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B8CF215B06FB7CB3C84BD56D2F4E78C /* ExtFastUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C283EEDF8E28C32D7DFA9AAA27A5C630 /* ExtFastUI-dummy.m */; };
 		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D4716F64F0086A6E46FB76AD466FFC18 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13D1860F45B55061AF022937722FCB56 /* ExtViewCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DCA3310CB7C0E89DA70A19B63BF259 /* ExtViewCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18B539AB9A8FE711D1C91B87C18D4417 /* ExtViewCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D12FA9EA9FE476840B314B7675BAE71 /* ExtViewCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F753801F40D648CF36C04C9F6885F /* MASConstraintMaker.m */; };
-		25FBFB7A6EAFCDA25A1C9C24B2CBAEAA /* UIStackView+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6B713B1C764CA40421EFD67909A9A7 /* UIStackView+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EED7F715BC0E01F837B885680EE8ED3 /* ExtViewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD527317C2C678DAD105C4186FF8B4 /* ExtViewEvent.m */; };
+		33EFDA1B6E46818FFEEAD8471201E86D /* ExtViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F5D8A0E398170C25D79841173EEC7 /* ExtViewCache.m */; };
 		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F67BF9B28A9C24BCF671A0FAF43756C7 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0F3C0DA90C30F3249761A852CC06B1 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B0DDC47206B236B447009C1D9B414F5 /* ExtResponderEvent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA31ED69C17D2BDFCFC75D38B9F90E3 /* ExtResponderEvent-dummy.m */; };
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C40426CD0F9FCBED5F6424B8A942E9 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F18AA4D9141164ECD2752A5AF5D9B49 /* ExtViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D056F353D803E9C0F77267CCA3DD8CC /* ExtViewCache.m */; };
 		56C3BE2399349855A95AD073877CAA09 /* UIResponder+ExtEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E6FB4D70B553175914A892F554A808 /* UIResponder+ExtEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57201C95FE580F8C72D38FD0BD9C8960 /* UIStackView+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 310D427EDA438D9CC534F3B6BB93F62C /* UIStackView+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7A6FEF463D7E65D507FD88855BE02 /* MASViewConstraint.m */; };
-		59B06031CD18BEB68D79272479DA0207 /* ExtViewNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E64A9786BCF9AE52558286BE7EE47EF7 /* ExtViewNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9EA221D2B9F136C013D3EE1F15C585 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		5EBD862FF9F78B9383E11337A1731729 /* ExtFastUIDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8E40D73D2CA5686A572DACB148323B /* ExtFastUIDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AF509E9966D2C0289C675B6042D3A68C /* MASCompositeConstraint.m */; };
 		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BC516407209E2897E0C01BAC521C7BA9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		725B278739322F8CA3B698E3A10320FC /* UIStackView+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F175DFA715234BF452DDF503794ED /* UIStackView+ExtFastUI.m */; };
 		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE51CDE05998FA431CE3A09CD2F67B0 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 563521C509844D11353EA5A22FE0D4FD /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C7645B711B490040115FBB833722215 /* ExtViewEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4561C2A955BE105FEA4629ECD693A72A /* ExtViewEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84CDA9A2092703E4DDC92FC0EF69F098 /* UIView+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E4DA69AF8003CCA3587A7E9F07D94 /* UIView+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D881ED39AB05E960A4B148B4C21E1A0 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		91AB52A0828D47A47A6F7CB323EEF2BA /* ExtViewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BCC502F59A9E236040B2B95024D93C /* ExtViewEvent.m */; };
-		923345A1F7B52851068D8560EF55B1A0 /* UIViewController+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B57A18DEEA2594E5D603D5E03AF908C5 /* UIViewController+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 14544DACF1A80507904BF0D76170B7A8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC7ABA4A091E3A8CF7710B2B80D1263 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3FBD6FB209A0E8C705285E8B60437D5 /* UIStackView+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 971178A4BBA89E93982B94AF72E872C1 /* UIStackView+ExtFastUI.m */; };
+		A43502991910CB147BFF9B28ABC49F25 /* UIViewController+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA13A3D8CE7145B324EBF320F4C4179 /* UIViewController+ExtFastUI.m */; };
+		A5D5351F2A604BFE4AE2459BA97A6061 /* UIViewController+ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EAF457E22C5141D206A48D48816205 /* UIViewController+ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E0AC5E05E7C704053741474C82BF96 /* MASViewAttribute.m */; };
-		A897183F8DAC30581D02EA6F07F05814 /* UIView+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BF4AE53382C50F5A964B3903660BCE /* UIView+ExtFastUI.m */; };
+		A91C29FFA15C621E9E6B530A87A7A0E3 /* UIView+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 434F7E2B0F05F3FCF6A7E9442C7DE8A6 /* UIView+ExtFastUI.m */; };
 		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D332CA98D4AB16D7BE72D37AFFF79A /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B79487C677FC5DD4E4D42F5DE7BC3023 /* ExtViewEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DA09D8BC621D99268A8AA44105119A17 /* ExtViewEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D90F1505FB1A1202E97F2E93BBE75E /* NSArray+MASAdditions.m */; };
+		BDA6E19488FCB30992CCEC1F49C4A0C6 /* ExtStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544EA58857C0912AE8DC65CF8FBF35EB /* ExtStackView.m */; };
 		BE0A68F56F593FC53C0BE2CDDFE0B45D /* Pods-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9570E9D3BDB2C19DE2C13123030D53 /* Pods-ExampleUITests-dummy.m */; };
 		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A68476123F06CD260BC279D582AF1 /* ViewController+MASAdditions.m */; };
 		C541AD8F3F3F6B66B74557BD3257A190 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BAEA54E879D19134F7C5E5F6A70D14 /* Pods-Example-dummy.m */; };
@@ -46,56 +47,59 @@
 		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B152189AD50292BC2AA3EC9C65C0E8 /* View+MASAdditions.m */; };
 		CC3F5F9FDE572B0FE65FBAC26EE6882B /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D280BF746DD6E9F2A2124481DCC5C7 /* Pods-ExampleTests-dummy.m */; };
 		D0EDE35EEABC4AC333824D015C803FE2 /* UIResponder+ExtEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06013836C77C70258C158ABF295A7B /* UIResponder+ExtEvent.m */; };
+		D72C5F70E108FB945B9EFA67AA257191 /* ExtFastUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EF6DB1F91C21AF881FE67AEA43E641 /* ExtFastUI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9290114C101E2FCBA9C4FAE7111DEBBE /* Masonry-dummy.m */; };
-		DAF618092D50421BE505752F194DB654 /* ExtFastUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC43CC53603C0913DE3A82503D22C999 /* ExtFastUI-dummy.m */; };
-		E1CF3A8F3386F4AD07FE5C0951A111CF /* UIViewController+ExtFastUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F33365AB61CCF2F72EA55411CA5D0 /* UIViewController+ExtFastUI.m */; };
-		E761361B59EEA490EA64E06CA53A90E1 /* ExtViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9189BB038D550825D8515600A8AA6F59 /* ExtViewNode.m */; };
 		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF196139AC9860AB90BB08D5E896446 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD3AB08C59F0D335708622EB21C1BE5 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBF581047FF687D469A5EC297EE34CD4 /* ExtViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB741266C957D7367B338233675F2C3 /* ExtViewNode.m */; };
 		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEF7278A273B1D01ACA050A589D4C5 /* MASConstraint.m */; };
+		EFC9015C78B4E129982E5FEBABDC6534 /* ExtViewNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E781B1801B3780C93E4ABD23B7BF56 /* ExtViewNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 589D1BF0DB406871A529205F03387D59 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD7659BED6E24852DDC06FC7147DDD57 /* ExtFastUIDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F346422ECBADB5CA2C079E8CC32F75 /* ExtFastUIDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		66F691758040DF94CE12141659279A9D /* PBXContainerItemProxy */ = {
+		6827537683C6F98618F4381EAD70ECAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
+			remoteInfo = "Pods-Example";
+		};
+		6B07837654B04076804D64F6FDAEB0E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		71E8A9AB63CB44CFBF37CAFEF185C189 /* PBXContainerItemProxy */ = {
+		8040DD8B9BE2DF29F32158E62C425796 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4A074CFF60E6C83E89B0155FE2C3C7B;
-			remoteInfo = ExtFastUI;
+			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
+			remoteInfo = "Pods-Example";
 		};
-		7C48A4D0DA73BE77B9F90D9AC91688F1 /* PBXContainerItemProxy */ = {
+		83D1EC1C18ED6791AA7D9F4EA7B2847B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B448CBF2FBBAAC5E477ADFCAB9EAFDE5;
 			remoteInfo = ExtResponderEvent;
 		};
-		A863C945785747D3995D9E83D27F702A /* PBXContainerItemProxy */ = {
+		FFAFB9CE44ACFEBD753EA7248ED9D795 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
-			remoteInfo = "Pods-Example";
-		};
-		BD28972B5DE88B45B828A4BA79681F8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
-			remoteInfo = "Pods-Example";
+			remoteGlobalIDString = B4A074CFF60E6C83E89B0155FE2C3C7B;
+			remoteInfo = ExtFastUI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BD527317C2C678DAD105C4186FF8B4 /* ExtViewEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewEvent.m; path = Classes/ExtViewEvent.m; sourceTree = "<group>"; };
 		07D332CA98D4AB16D7BE72D37AFFF79A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		08B3E970B1A07D206EF4F500439A3E17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0A9C45F4FB74E12AE57C45BBC15DF395 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C06013836C77C70258C158ABF295A7B /* UIResponder+ExtEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ExtEvent.m"; path = "Classes/UIResponder+ExtEvent.m"; sourceTree = "<group>"; };
 		0D881ED39AB05E960A4B148B4C21E1A0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -103,87 +107,80 @@
 		0FB47609807628C214EDE99ED0003BFA /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		10E6FB4D70B553175914A892F554A808 /* UIResponder+ExtEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ExtEvent.h"; path = "Classes/UIResponder+ExtEvent.h"; sourceTree = "<group>"; };
 		14544DACF1A80507904BF0D76170B7A8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		1A85BDB028BFD8502E91F408BFE6187D /* ExtFastUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtFastUI-prefix.pch"; sourceTree = "<group>"; };
 		1B5AD9E8752822B8F2062A131DA648D9 /* ExtResponderEvent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtResponderEvent-prefix.pch"; sourceTree = "<group>"; };
-		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D12FA9EA9FE476840B314B7675BAE71 /* ExtViewCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewCache.h; path = Classes/ExtViewCache.h; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C534A552827C2ABC9D234BB10D738A /* ExtFastUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtFastUI.release.xcconfig; sourceTree = "<group>"; };
+		293F5D8A0E398170C25D79841173EEC7 /* ExtViewCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewCache.m; path = Classes/ExtViewCache.m; sourceTree = "<group>"; };
+		296E4DA69AF8003CCA3587A7E9F07D94 /* UIView+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ExtFastUI.h"; path = "Classes/UIView+ExtFastUI.h"; sourceTree = "<group>"; };
 		2AEEF7278A273B1D01ACA050A589D4C5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		2CD25E4604F468CD0D66597639459D62 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		30DAB25B89E89444F16DC84AB4743AE9 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		310D427EDA438D9CC534F3B6BB93F62C /* UIStackView+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStackView+ExtFastUI.h"; path = "Classes/UIStackView+ExtFastUI.h"; sourceTree = "<group>"; };
 		3AD3AB08C59F0D335708622EB21C1BE5 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		40FBABB83403696F1372C47759FF1C11 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		42EAF457E22C5141D206A48D48816205 /* UIViewController+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ExtFastUI.h"; path = "Classes/UIViewController+ExtFastUI.h"; sourceTree = "<group>"; };
+		434F7E2B0F05F3FCF6A7E9442C7DE8A6 /* UIView+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ExtFastUI.m"; path = "Classes/UIView+ExtFastUI.m"; sourceTree = "<group>"; };
 		4418AAFD1418BB2E57F322EE887F9AA2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		4561C2A955BE105FEA4629ECD693A72A /* ExtViewEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewEvent.h; path = Classes/ExtViewEvent.h; sourceTree = "<group>"; };
 		4A877586BD3CCFBD36455F2F6C14F4CB /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		4AB741266C957D7367B338233675F2C3 /* ExtViewNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewNode.m; path = Classes/ExtViewNode.m; sourceTree = "<group>"; };
 		4C0F3C0DA90C30F3249761A852CC06B1 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		4CED65E44B024AECD549FBF570B42C88 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		544EA58857C0912AE8DC65CF8FBF35EB /* ExtStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtStackView.m; path = Classes/ExtStackView.m; sourceTree = "<group>"; };
 		563521C509844D11353EA5A22FE0D4FD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		589D1BF0DB406871A529205F03387D59 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5CEA41D1EC68282B48129E3FD1906693 /* ExtFastUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ExtFastUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A7DE2E305BFF1F0DBA0632145A6BF5 /* ExtStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtStackView.h; path = Classes/ExtStackView.h; sourceTree = "<group>"; };
+		630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleTests.a"; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BAEA54E879D19134F7C5E5F6A70D14 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		6EA40B6588D823119461147B9721313A /* ExtFastUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtFastUI.debug.xcconfig; sourceTree = "<group>"; };
 		728B19FBA0B601C642EACB059184FA4D /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		814FB47545151C4D8F819A4EB8253206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8912A92AFDC3B1A7941B7C121FD70331 /* ExtFastUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtFastUI-prefix.pch"; sourceTree = "<group>"; };
 		8D9EA221D2B9F136C013D3EE1F15C585 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		9189BB038D550825D8515600A8AA6F59 /* ExtViewNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewNode.m; path = Classes/ExtViewNode.m; sourceTree = "<group>"; };
-		92501DD96B9FEE4213E4163A77082DAE /* UIView+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ExtFastUI.h"; path = "Classes/UIView+ExtFastUI.h"; sourceTree = "<group>"; };
 		9290114C101E2FCBA9C4FAE7111DEBBE /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		9831F4B42AD8C314FFAB26A55A1E53BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		971178A4BBA89E93982B94AF72E872C1 /* UIStackView+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStackView+ExtFastUI.m"; path = "Classes/UIStackView+ExtFastUI.m"; sourceTree = "<group>"; };
 		9A54F3AF99A2F809D4A48981C2D011BC /* Pods-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B4B1D86914CDB133B1DC2373DF4F508 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D056F353D803E9C0F77267CCA3DD8CC /* ExtViewCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewCache.m; path = Classes/ExtViewCache.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F36348B703681EC9D7BF448F4896F62 /* ExtResponderEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtResponderEvent.debug.xcconfig; sourceTree = "<group>"; };
-		A8DCA3310CB7C0E89DA70A19B63BF259 /* ExtViewCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewCache.h; path = Classes/ExtViewCache.h; sourceTree = "<group>"; };
-		A8E803904E53E10E5895C4C719504CA9 /* libExtResponderEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExtResponderEvent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E803904E53E10E5895C4C719504CA9 /* libExtResponderEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libExtResponderEvent.a; path = libExtResponderEvent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D90F1505FB1A1202E97F2E93BBE75E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		AD6B713B1C764CA40421EFD67909A9A7 /* UIStackView+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStackView+ExtFastUI.h"; path = "Classes/UIStackView+ExtFastUI.h"; sourceTree = "<group>"; };
+		A9F346422ECBADB5CA2C079E8CC32F75 /* ExtFastUIDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtFastUIDefines.h; path = Classes/ExtFastUIDefines.h; sourceTree = "<group>"; };
 		AD9570E9D3BDB2C19DE2C13123030D53 /* Pods-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		AEA31ED69C17D2BDFCFC75D38B9F90E3 /* ExtResponderEvent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtResponderEvent-dummy.m"; sourceTree = "<group>"; };
 		AF509E9966D2C0289C675B6042D3A68C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B2BF4AE53382C50F5A964B3903660BCE /* UIView+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ExtFastUI.m"; path = "Classes/UIView+ExtFastUI.m"; sourceTree = "<group>"; };
-		B57A18DEEA2594E5D603D5E03AF908C5 /* UIViewController+ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ExtFastUI.h"; path = "Classes/UIViewController+ExtFastUI.h"; sourceTree = "<group>"; };
-		B76F175DFA715234BF452DDF503794ED /* UIStackView+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStackView+ExtFastUI.m"; path = "Classes/UIStackView+ExtFastUI.m"; sourceTree = "<group>"; };
 		B7E0AC5E05E7C704053741474C82BF96 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B7EF6DB1F91C21AF881FE67AEA43E641 /* ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtFastUI.h; path = Classes/ExtFastUI.h; sourceTree = "<group>"; };
 		B85994BBB2D0116207630C41C9978BD0 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9862301EC4F3CEFE5925E1CFDC5C5CE /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC516407209E2897E0C01BAC521C7BA9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		BCA13A3D8CE7145B324EBF320F4C4179 /* UIViewController+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ExtFastUI.m"; path = "Classes/UIViewController+ExtFastUI.m"; sourceTree = "<group>"; };
 		BF4812F4061DC297B31F6A7002A04ADE /* Pods-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C05F33365AB61CCF2F72EA55411CA5D0 /* UIViewController+ExtFastUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ExtFastUI.m"; path = "Classes/UIViewController+ExtFastUI.m"; sourceTree = "<group>"; };
-		C232398D4E3A40F2337F8A40D7F8D751 /* libPods-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C283981AD592875D0B3560D175326249 /* libExtFastUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExtFastUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C903A18AD53BACCB1FD542B449D8C48B /* ExtFastUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtFastUI.h; path = Classes/ExtFastUI.h; sourceTree = "<group>"; };
+		C232398D4E3A40F2337F8A40D7F8D751 /* libPods-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleUITests.a"; path = "libPods-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C283981AD592875D0B3560D175326249 /* libExtFastUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libExtFastUI.a; path = libExtFastUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C283EEDF8E28C32D7DFA9AAA27A5C630 /* ExtFastUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtFastUI-dummy.m"; sourceTree = "<group>"; };
 		CD2F753801F40D648CF36C04C9F6885F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		CD6077C4CA814255BA143200D95BE84B /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9A68476123F06CD260BC279D582AF1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		CEC7A6FEF463D7E65D507FD88855BE02 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		CEE485EF18B1777C677366F2B2DB2572 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D4716F64F0086A6E46FB76AD466FFC18 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D4C40426CD0F9FCBED5F6424B8A942E9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D534BFBD1DDC5117223AB51A836DA2C7 /* ExtFastUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtFastUI.release.xcconfig; sourceTree = "<group>"; };
-		DC43CC53603C0913DE3A82503D22C999 /* ExtFastUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtFastUI-dummy.m"; sourceTree = "<group>"; };
+		D6E781B1801B3780C93E4ABD23B7BF56 /* ExtViewNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewNode.h; path = Classes/ExtViewNode.h; sourceTree = "<group>"; };
+		D854DF4264B93F145431B47297A1E01A /* ExtFastUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtFastUI.debug.xcconfig; sourceTree = "<group>"; };
+		DA09D8BC621D99268A8AA44105119A17 /* ExtViewEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewEvent.h; path = Classes/ExtViewEvent.h; sourceTree = "<group>"; };
 		DDF700197AE06FE9903D3A31E1FE3E13 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		E0D280BF746DD6E9F2A2124481DCC5C7 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		E35C4FEFACCBD6DE17C29690B7E951A5 /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E64A9786BCF9AE52558286BE7EE47EF7 /* ExtViewNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtViewNode.h; path = Classes/ExtViewNode.h; sourceTree = "<group>"; };
-		E7BCC502F59A9E236040B2B95024D93C /* ExtViewEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtViewEvent.m; path = Classes/ExtViewEvent.m; sourceTree = "<group>"; };
 		EBC7ABA4A091E3A8CF7710B2B80D1263 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		EFF196139AC9860AB90BB08D5E896446 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		F67BF9B28A9C24BCF671A0FAF43756C7 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		F6B152189AD50292BC2AA3EC9C65C0E8 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		FE8E40D73D2CA5686A572DACB148323B /* ExtFastUIDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtFastUIDefines.h; path = Classes/ExtFastUIDefines.h; sourceTree = "<group>"; };
+		FF23C7222FD45D05FADB8A01F5EAC764 /* ExtFastUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ExtFastUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF8F6B8BCB9DF18C0E9509EE6C650426 /* ExtResponderEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtResponderEvent.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08CA7F4DE419A5B42195CDED35D15BE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,6 +215,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B79EB4DF88AB9589079780F348DAB14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -228,6 +232,7 @@
 				0C06013836C77C70258C158ABF295A7B /* UIResponder+ExtEvent.m */,
 				0D280BF20CDC6D4B5DB390323293CBD5 /* Support Files */,
 			);
+			name = ExtResponderEvent;
 			path = ExtResponderEvent;
 			sourceTree = "<group>";
 		};
@@ -243,12 +248,30 @@
 			path = "../Target Support Files/ExtResponderEvent";
 			sourceTree = "<group>";
 		};
-		0E2209F8B48852344EC0BBCF5F9A39BC /* Development Pods */ = {
+		15A3F72F6633D84C28C253521BDDD015 /* ExtFastUI */ = {
 			isa = PBXGroup;
 			children = (
-				E98E7A98B9AEC324868DF040CC9844A9 /* ExtFastUI */,
+				B7EF6DB1F91C21AF881FE67AEA43E641 /* ExtFastUI.h */,
+				A9F346422ECBADB5CA2C079E8CC32F75 /* ExtFastUIDefines.h */,
+				59A7DE2E305BFF1F0DBA0632145A6BF5 /* ExtStackView.h */,
+				544EA58857C0912AE8DC65CF8FBF35EB /* ExtStackView.m */,
+				1D12FA9EA9FE476840B314B7675BAE71 /* ExtViewCache.h */,
+				293F5D8A0E398170C25D79841173EEC7 /* ExtViewCache.m */,
+				DA09D8BC621D99268A8AA44105119A17 /* ExtViewEvent.h */,
+				02BD527317C2C678DAD105C4186FF8B4 /* ExtViewEvent.m */,
+				D6E781B1801B3780C93E4ABD23B7BF56 /* ExtViewNode.h */,
+				4AB741266C957D7367B338233675F2C3 /* ExtViewNode.m */,
+				310D427EDA438D9CC534F3B6BB93F62C /* UIStackView+ExtFastUI.h */,
+				971178A4BBA89E93982B94AF72E872C1 /* UIStackView+ExtFastUI.m */,
+				296E4DA69AF8003CCA3587A7E9F07D94 /* UIView+ExtFastUI.h */,
+				434F7E2B0F05F3FCF6A7E9442C7DE8A6 /* UIView+ExtFastUI.m */,
+				42EAF457E22C5141D206A48D48816205 /* UIViewController+ExtFastUI.h */,
+				BCA13A3D8CE7145B324EBF320F4C4179 /* UIViewController+ExtFastUI.m */,
+				5B4626696776EB1503ABBAA6A4EDE71E /* Pod */,
+				EFD5717550E14B871875C98303A75611 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = ExtFastUI;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2278B55FA8A114E6BACB2F9A338FE872 /* Pods-ExampleUITests */ = {
@@ -277,6 +300,14 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		39B0C5626360DFEE6377E534447AE728 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A3F72F6633D84C28C253521BDDD015 /* ExtFastUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		49DD888646E8E4E106A518FE73BA9872 /* Pods-ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +319,16 @@
 			);
 			name = "Pods-ExampleTests";
 			path = "Target Support Files/Pods-ExampleTests";
+			sourceTree = "<group>";
+		};
+		5B4626696776EB1503ABBAA6A4EDE71E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF23C7222FD45D05FADB8A01F5EAC764 /* ExtFastUI.podspec */,
+				08B3E970B1A07D206EF4F500439A3E17 /* LICENSE */,
+				CEE485EF18B1777C677366F2B2DB2572 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6275CC29EDF5305DCE8277BC84030030 /* Products */ = {
@@ -334,33 +375,11 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		A1164B50E9791ED2993673D1DED5733F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5CEA41D1EC68282B48129E3FD1906693 /* ExtFastUI.podspec */,
-				814FB47545151C4D8F819A4EB8253206 /* LICENSE */,
-				9831F4B42AD8C314FFAB26A55A1E53BD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B16321C9D18AD72FA95C7803E84A8A3C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC43CC53603C0913DE3A82503D22C999 /* ExtFastUI-dummy.m */,
-				8912A92AFDC3B1A7941B7C121FD70331 /* ExtFastUI-prefix.pch */,
-				6EA40B6588D823119461147B9721313A /* ExtFastUI.debug.xcconfig */,
-				D534BFBD1DDC5117223AB51A836DA2C7 /* ExtFastUI.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ExtFastUI";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0E2209F8B48852344EC0BBCF5F9A39BC /* Development Pods */,
+				39B0C5626360DFEE6377E534447AE728 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				9DD3858DCF70B36A7644391FC05A8D37 /* Pods */,
 				6275CC29EDF5305DCE8277BC84030030 /* Products */,
@@ -398,6 +417,7 @@
 				CD9A68476123F06CD260BC279D582AF1 /* ViewController+MASAdditions.m */,
 				9EA4984F060D1C754793F43FF6D80C5B /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -408,28 +428,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E98E7A98B9AEC324868DF040CC9844A9 /* ExtFastUI */ = {
+		EFD5717550E14B871875C98303A75611 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C903A18AD53BACCB1FD542B449D8C48B /* ExtFastUI.h */,
-				FE8E40D73D2CA5686A572DACB148323B /* ExtFastUIDefines.h */,
-				A8DCA3310CB7C0E89DA70A19B63BF259 /* ExtViewCache.h */,
-				9D056F353D803E9C0F77267CCA3DD8CC /* ExtViewCache.m */,
-				4561C2A955BE105FEA4629ECD693A72A /* ExtViewEvent.h */,
-				E7BCC502F59A9E236040B2B95024D93C /* ExtViewEvent.m */,
-				E64A9786BCF9AE52558286BE7EE47EF7 /* ExtViewNode.h */,
-				9189BB038D550825D8515600A8AA6F59 /* ExtViewNode.m */,
-				AD6B713B1C764CA40421EFD67909A9A7 /* UIStackView+ExtFastUI.h */,
-				B76F175DFA715234BF452DDF503794ED /* UIStackView+ExtFastUI.m */,
-				92501DD96B9FEE4213E4163A77082DAE /* UIView+ExtFastUI.h */,
-				B2BF4AE53382C50F5A964B3903660BCE /* UIView+ExtFastUI.m */,
-				B57A18DEEA2594E5D603D5E03AF908C5 /* UIViewController+ExtFastUI.h */,
-				C05F33365AB61CCF2F72EA55411CA5D0 /* UIViewController+ExtFastUI.m */,
-				A1164B50E9791ED2993673D1DED5733F /* Pod */,
-				B16321C9D18AD72FA95C7803E84A8A3C /* Support Files */,
+				C283EEDF8E28C32D7DFA9AAA27A5C630 /* ExtFastUI-dummy.m */,
+				1A85BDB028BFD8502E91F408BFE6187D /* ExtFastUI-prefix.pch */,
+				D854DF4264B93F145431B47297A1E01A /* ExtFastUI.debug.xcconfig */,
+				25C534A552827C2ABC9D234BB10D738A /* ExtFastUI.release.xcconfig */,
 			);
-			name = ExtFastUI;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ExtFastUI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,25 +472,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9F5FFBC97B38B78EE6CDC3040D3A3BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72C5F70E108FB945B9EFA67AA257191 /* ExtFastUI.h in Headers */,
+				FD7659BED6E24852DDC06FC7147DDD57 /* ExtFastUIDefines.h in Headers */,
+				0043A270AC77F5C636F1B4843A419DFF /* ExtStackView.h in Headers */,
+				18B539AB9A8FE711D1C91B87C18D4417 /* ExtViewCache.h in Headers */,
+				B79487C677FC5DD4E4D42F5DE7BC3023 /* ExtViewEvent.h in Headers */,
+				EFC9015C78B4E129982E5FEBABDC6534 /* ExtViewNode.h in Headers */,
+				57201C95FE580F8C72D38FD0BD9C8960 /* UIStackView+ExtFastUI.h in Headers */,
+				84CDA9A2092703E4DDC92FC0EF69F098 /* UIView+ExtFastUI.h in Headers */,
+				A5D5351F2A604BFE4AE2459BA97A6061 /* UIViewController+ExtFastUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF71B1AE638405E224F6174A8FF461BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D73A0AB1B491FFD61552928D90F4A98E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0943AC15B2484579AEDEE08B8FAB0E0A /* ExtFastUI.h in Headers */,
-				5EBD862FF9F78B9383E11337A1731729 /* ExtFastUIDefines.h in Headers */,
-				13D1860F45B55061AF022937722FCB56 /* ExtViewCache.h in Headers */,
-				8C7645B711B490040115FBB833722215 /* ExtViewEvent.h in Headers */,
-				59B06031CD18BEB68D79272479DA0207 /* ExtViewNode.h in Headers */,
-				25FBFB7A6EAFCDA25A1C9C24B2CBAEAA /* UIStackView+ExtFastUI.h in Headers */,
-				07634884F70C97B0D6FFF128C91333D9 /* UIView+ExtFastUI.h in Headers */,
-				923345A1F7B52851068D8560EF55B1A0 /* UIViewController+ExtFastUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,9 +524,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				C88F73237AAE0C610C8EF1504D484C8B /* PBXTargetDependency */,
-				48A58C569670C3F4E46735E4355B4CD6 /* PBXTargetDependency */,
-				A30A0D79B9244DD76E3FAB6AC3C8AAAE /* PBXTargetDependency */,
+				8688F11D7EBDBD75CF804FC24CB40455 /* PBXTargetDependency */,
+				4DACE16285300C57DB677308404F1100 /* PBXTargetDependency */,
+				118850F2ADACD59389FEC99FD93097C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -535,7 +544,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E27DB6B8DCC4AD89EC473C34BA217D12 /* PBXTargetDependency */,
+				543AC56E3952B753DD5029C538F69923 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
@@ -570,7 +579,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6CD0388F052B7AF8919FD5E4CE62512A /* PBXTargetDependency */,
+				5A7882C9342015A5AEBDE37FB5E81429 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleUITests";
 			productName = "Pods-ExampleUITests";
@@ -596,11 +605,11 @@
 		};
 		B4A074CFF60E6C83E89B0155FE2C3C7B /* ExtFastUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F034BC0BA429002D2C31BF9E21BD45D2 /* Build configuration list for PBXNativeTarget "ExtFastUI" */;
+			buildConfigurationList = AAE016AF0E2231156A05F6333E338A54 /* Build configuration list for PBXNativeTarget "ExtFastUI" */;
 			buildPhases = (
-				D73A0AB1B491FFD61552928D90F4A98E /* Headers */,
-				5982C5C6091D8FC514F0F650E48DB62D /* Sources */,
-				08CA7F4DE419A5B42195CDED35D15BE8 /* Frameworks */,
+				A9F5FFBC97B38B78EE6CDC3040D3A3BD /* Headers */,
+				F765D146058731B16172410A9F0656BF /* Sources */,
+				B79EB4DF88AB9589079780F348DAB14D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -618,7 +627,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -668,20 +677,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5982C5C6091D8FC514F0F650E48DB62D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAF618092D50421BE505752F194DB654 /* ExtFastUI-dummy.m in Sources */,
-				4F18AA4D9141164ECD2752A5AF5D9B49 /* ExtViewCache.m in Sources */,
-				91AB52A0828D47A47A6F7CB323EEF2BA /* ExtViewEvent.m in Sources */,
-				E761361B59EEA490EA64E06CA53A90E1 /* ExtViewNode.m in Sources */,
-				725B278739322F8CA3B698E3A10320FC /* UIStackView+ExtFastUI.m in Sources */,
-				A897183F8DAC30581D02EA6F07F05814 /* UIView+ExtFastUI.m in Sources */,
-				E1CF3A8F3386F4AD07FE5C0951A111CF /* UIViewController+ExtFastUI.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -709,42 +704,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F765D146058731B16172410A9F0656BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8CF215B06FB7CB3C84BD56D2F4E78C /* ExtFastUI-dummy.m in Sources */,
+				BDA6E19488FCB30992CCEC1F49C4A0C6 /* ExtStackView.m in Sources */,
+				33EFDA1B6E46818FFEEAD8471201E86D /* ExtViewCache.m in Sources */,
+				2EED7F715BC0E01F837B885680EE8ED3 /* ExtViewEvent.m in Sources */,
+				EBF581047FF687D469A5EC297EE34CD4 /* ExtViewNode.m in Sources */,
+				A3FBD6FB209A0E8C705285E8B60437D5 /* UIStackView+ExtFastUI.m in Sources */,
+				A91C29FFA15C621E9E6B530A87A7A0E3 /* UIView+ExtFastUI.m in Sources */,
+				A43502991910CB147BFF9B28ABC49F25 /* UIViewController+ExtFastUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48A58C569670C3F4E46735E4355B4CD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ExtResponderEvent;
-			target = B448CBF2FBBAAC5E477ADFCAB9EAFDE5 /* ExtResponderEvent */;
-			targetProxy = 7C48A4D0DA73BE77B9F90D9AC91688F1 /* PBXContainerItemProxy */;
-		};
-		6CD0388F052B7AF8919FD5E4CE62512A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Example";
-			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
-			targetProxy = A863C945785747D3995D9E83D27F702A /* PBXContainerItemProxy */;
-		};
-		A30A0D79B9244DD76E3FAB6AC3C8AAAE /* PBXTargetDependency */ = {
+		118850F2ADACD59389FEC99FD93097C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 66F691758040DF94CE12141659279A9D /* PBXContainerItemProxy */;
+			targetProxy = 6B07837654B04076804D64F6FDAEB0E6 /* PBXContainerItemProxy */;
 		};
-		C88F73237AAE0C610C8EF1504D484C8B /* PBXTargetDependency */ = {
+		4DACE16285300C57DB677308404F1100 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ExtFastUI;
-			target = B4A074CFF60E6C83E89B0155FE2C3C7B /* ExtFastUI */;
-			targetProxy = 71E8A9AB63CB44CFBF37CAFEF185C189 /* PBXContainerItemProxy */;
+			name = ExtResponderEvent;
+			target = B448CBF2FBBAAC5E477ADFCAB9EAFDE5 /* ExtResponderEvent */;
+			targetProxy = 83D1EC1C18ED6791AA7D9F4EA7B2847B /* PBXContainerItemProxy */;
 		};
-		E27DB6B8DCC4AD89EC473C34BA217D12 /* PBXTargetDependency */ = {
+		543AC56E3952B753DD5029C538F69923 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Example";
 			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
-			targetProxy = BD28972B5DE88B45B828A4BA79681F8C /* PBXContainerItemProxy */;
+			targetProxy = 6827537683C6F98618F4381EAD70ECAB /* PBXContainerItemProxy */;
+		};
+		5A7882C9342015A5AEBDE37FB5E81429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Example";
+			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
+			targetProxy = 8040DD8B9BE2DF29F32158E62C425796 /* PBXContainerItemProxy */;
+		};
+		8688F11D7EBDBD75CF804FC24CB40455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExtFastUI;
+			target = B4A074CFF60E6C83E89B0155FE2C3C7B /* ExtFastUI */;
+			targetProxy = FFAFB9CE44ACFEBD753EA7248ED9D795 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04CCBA4DC4E74F18292402B87FF2FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D854DF4264B93F145431B47297A1E01A /* ExtFastUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ExtFastUI/ExtFastUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ExtFastUI;
+				PRODUCT_NAME = ExtFastUI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		072E54C7692CF0273A1DC25DC63ECF28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD6077C4CA814255BA143200D95BE84B /* Pods-Example.debug.xcconfig */;
@@ -836,9 +869,9 @@
 			};
 			name = Release;
 		};
-		5EE5896210089DC4BED164C288DCF71B /* Debug */ = {
+		361A1342AAB74050BF2C4CBA90F78EA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EA40B6588D823119461147B9721313A /* ExtFastUI.debug.xcconfig */;
+			baseConfigurationReference = 25C534A552827C2ABC9D234BB10D738A /* ExtFastUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -856,8 +889,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		663409C39F6C7F7BD67E33E8535667CD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1115,30 +1149,6 @@
 			};
 			name = Debug;
 		};
-		DFEAAE2F4753D74F273AB493E5B5A179 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D534BFBD1DDC5117223AB51A836DA2C7 /* ExtFastUI.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ExtFastUI/ExtFastUI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ExtFastUI;
-				PRODUCT_NAME = ExtFastUI;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1169,6 +1179,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AAE016AF0E2231156A05F6333E338A54 /* Build configuration list for PBXNativeTarget "ExtFastUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CCBA4DC4E74F18292402B87FF2FA2C /* Debug */,
+				361A1342AAB74050BF2C4CBA90F78EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDE0A5BAECBFA85414B2624CFE6C13FB /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1183,15 +1202,6 @@
 			buildConfigurations = (
 				BC6D2A83CCF5219BA3FC32A806D01210 /* Debug */,
 				145A461ABDC1A5816AB9B6190115D753 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F034BC0BA429002D2C31BF9E21BD45D2 /* Build configuration list for PBXNativeTarget "ExtFastUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5EE5896210089DC4BED164C288DCF71B /* Debug */,
-				DFEAAE2F4753D74F273AB493E5B5A179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,23 +27,23 @@ static NSMutableSet *ExtViewCacheViewNodePool;
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.nodeIdStorage = [NSMutableDictionary dictionary];
-        self.nodeClassStorage = [NSMutableDictionary dictionary];
-        self.viewIdStorage = [NSMutableDictionary dictionary];
-        self.viewClassStorage = [NSMutableDictionary dictionary];
+        _nodeIdStorage = [NSMutableDictionary dictionary];
+        _nodeClassStorage = [NSMutableDictionary dictionary];
+        _viewIdStorage = [NSMutableDictionary dictionary];
+        _viewClassStorage = [NSMutableDictionary dictionary];
     }
     return self;
 }
 
 - (void)storeViewNode:(ExtViewNode *)viewNode {
     if (viewNode.nodeId) {
-        self.nodeIdStorage[viewNode.nodeId] = viewNode;
+        _nodeIdStorage[viewNode.nodeId] = viewNode;
     }
     if (viewNode.nodeClass) {
-        NSMutableArray *array = self.nodeClassStorage[viewNode.nodeClass];
+        NSMutableArray *array = _nodeClassStorage[viewNode.nodeClass];
         if (!array) {
             array = [NSMutableArray array];
-            self.nodeClassStorage[viewNode.nodeClass] = array;
+            _nodeClassStorage[viewNode.nodeClass] = array;
         }
         [array addObject:viewNode];
     }
@@ -51,10 +51,10 @@ static NSMutableSet *ExtViewCacheViewNodePool;
 
 - (void)deleteViewNode:(ExtViewNode *)viewNode {
     if (viewNode.nodeId) {
-        self.nodeIdStorage[viewNode.nodeId] = nil;
+        _nodeIdStorage[viewNode.nodeId] = nil;
     }
     if (viewNode.nodeClass) {
-        NSMutableArray *array = self.nodeClassStorage[viewNode.nodeClass];
+        NSMutableArray *array = _nodeClassStorage[viewNode.nodeClass];
         if (!array) {
             return;
         }
@@ -63,23 +63,23 @@ static NSMutableSet *ExtViewCacheViewNodePool;
 }
 
 - (ExtViewNode *)getViewNodeById:(NSString *)nodeId {
-    return self.nodeIdStorage[nodeId];
+    return _nodeIdStorage[nodeId];
 }
                                                      
 - (NSMutableArray<ExtViewNode *> *)getViewNodeByClass:(NSString *)nodeClass {
-    return self.nodeClassStorage[nodeClass];
+    return _nodeClassStorage[nodeClass];
 }
 
 - (nullable UIView *)fetchViewWithViewClass:(Class)viewClass nodeId:(NSString *)nodeId nodeClass:(NSString *)nodeClass {
     if (nodeId) {
-        id view = self.viewIdStorage[nodeId];
+        id view = _viewIdStorage[nodeId];
         if ([view class] != viewClass) {
             return nil;
         }
         return view;
     }
     if (nodeClass) {
-        NSMutableArray *array = self.viewClassStorage[nodeClass][NSStringFromClass(viewClass)];
+        NSMutableArray *array = _viewClassStorage[nodeClass][NSStringFromClass(viewClass)];
         UIView *view = array.firstObject;
         if (view) {
             [array removeObjectAtIndex:0];
@@ -91,14 +91,14 @@ static NSMutableSet *ExtViewCacheViewNodePool;
 
 - (void)storeView:(UIView *)view withNodeId:(NSString *)nodeId nodeClass:(NSString *)nodeClass {
     if (nodeId) {
-        self.viewIdStorage[nodeId] = view;
+        _viewIdStorage[nodeId] = view;
         return;
     }
     if (nodeClass) {
-        NSMutableDictionary *dic = self.viewClassStorage[nodeClass];
+        NSMutableDictionary *dic = _viewClassStorage[nodeClass];
         if (!dic) {
             dic = [NSMutableDictionary dictionary];
-            self.viewClassStorage[nodeClass] = dic;
+            _viewClassStorage[nodeClass] = dic;
         }
         NSMutableArray *array = dic[NSStringFromClass([view class])];
         if (!array) {
@@ -112,11 +112,11 @@ static NSMutableSet *ExtViewCacheViewNodePool;
 
 - (void)deleteView:(UIView *)view withNodeId:(NSString *)nodeId nodeClass:(NSString *)nodeClass {
     if (nodeId) {
-        self.viewIdStorage[nodeId] = view;
+        _viewIdStorage[nodeId] = view;
         return;
     }
     if (nodeClass) {
-        NSMutableDictionary *dic = self.viewClassStorage[nodeClass];
+        NSMutableDictionary *dic = _viewClassStorage[nodeClass];
         if (!dic) {
             return;
         }

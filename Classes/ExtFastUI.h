@@ -10,5 +10,6 @@
 
 #import "UIView+ExtFastUI.h"
 #import "UIViewController+ExtFastUI.h"
+#import "ExtStackView.h"
 
 #endif /* ExtFastUI_h */

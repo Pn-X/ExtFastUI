@@ -16,7 +16,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.childNodes = [NSMutableArray array];
+        _childNodes = [NSMutableArray array];
     }
     return self;
 }
@@ -39,19 +39,19 @@
         if ([node isKindOfClass:[NSArray class]]) {
             [self append:(ExtViewNode *)node];
         } else if ([node isKindOfClass:[ExtViewNode class]]) {
-            [self.childNodes addObject:node];
+            [_childNodes addObject:node];
         }
     }
     return self;
 }
 
 - (BOOL)isEqual:(ExtViewNode *)object {
-    if (self.viewClass == object.viewClass
-        && self.nodeId == object.nodeId
-        && self.nodeClass == object.nodeClass
-        && self.key == object.key
-        && self.index == object.index
-        && self.data == object.data
+    if (_viewClass == object.viewClass
+        && ((_nodeId == nil && object.nodeId == nil) || (_nodeId != nil && object.nodeId != nil && [_nodeId isEqualToString:object.nodeId]))
+        && ((_nodeClass == nil && object.nodeClass == nil) || (_nodeClass != nil && object.nodeClass != nil && [_nodeClass isEqualToString:object.nodeClass]))
+        && _key == object.key
+        && _index == object.index
+        && _data == object.data
         ) {
         return YES;
     }
